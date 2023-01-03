@@ -1,0 +1,8 @@
+.articles-slot{
+ border-bottom: 1px solid #5d5f79;
+}
+
+.articles-slot:last-child{
+ border-bottom: none;
+}
+
