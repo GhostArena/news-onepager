@@ -4,7 +4,7 @@ import "./HomeSide.css";
 
 export const HomeSide = () => {
   return (
-    <div className="ml-10 bg-[#00001a] p-8">
+    <div className="md:ml-10 bg-[#00001a] p-8">
       <h1 className="text-[#e9ab53] text-4xl font-bold ">New</h1>
       {/* Articles */}
 

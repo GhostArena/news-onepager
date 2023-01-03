@@ -1,12 +1,13 @@
 import React from "react";
 import { readMore } from "../../assets/data/data";
+import "./LowerArticles.css";
 
 export const LowerArticles = () => {
   return (
-    <div className=" my-14  flex">
+    <div className="my-24 md:my-14 md:flex">
       {readMore.map((items, i) => (
-        <div className="flex first:ml-0 ml-8 overflow-hidden w-full h-[150px] ">
-          <div className="w-[150px] h-[160px] bg-slate-500 items-center justify-center flex overflow-hidden">
+        <div className="flex md:ml-8 first:ml-0 overflow-hidden h-[150px]  mt-10 md:mt-0">
+          <div className="h-[160px] items-center img-sizing justify-center flex overflow-hidden">
             <img
               src={items.image}
               alt={items.id}

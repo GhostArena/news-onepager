@@ -5,7 +5,7 @@ import { Navbar, Home, Hero, HomeSide, LowerArticles } from "./routes";
 function App() {
   const HomeContent = () => {
     return (
-      <div className="flex">
+      <div className="grid grid-cols-1 md:flex">
         <Hero />
         <HomeSide />
       </div>
